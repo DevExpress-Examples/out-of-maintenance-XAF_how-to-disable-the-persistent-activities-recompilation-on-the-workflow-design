@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" ?>
+<Application Title="E4485" Logo="ExpressAppLogo">
+<Views>
+<DetailView Id="MyWorkflowDefinition_DetailView">
+  <Items>
+    <PropertyEditor Id="AutoStartWhenObjectFitsCriteria" Caption="Object Fits Criteria" />
+    <PropertyEditor Id="AutoStartWhenObjectIsCreated" Caption="Object Is Created" />
+  </Items>
+  <Layout>
+    <LayoutGroup Id="Main_Copy" Index="0" Direction="Vertical" ShowCaption="False" Caption="Main" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="100" IsNewNode="True">
+      <LayoutGroup Id="SizeableEditors" Index="0" Direction="Vertical" ShowCaption="False" Caption="SizeableEditors" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="100" IsNewNode="True">
+        <TabbedGroup Id="Item1" CaptionLocation="Top" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="0" RelativeSize="100" IsNewNode="True">
+          <LayoutGroup Id="XpoWorkflowDefinition" ShowCaption="True" Caption="Properties" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" Direction="Vertical" Index="0" RelativeSize="100" IsNewNode="True">
+            <LayoutGroup Id="Item4" ShowCaption="False" Caption="Item4" CaptionLocation="Top" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" Direction="Vertical" Index="0" RelativeSize="9" ImageName="" IsNewNode="True">
+              <LayoutGroup Id="3a4ca40e-a05e-4539-a048-6948acb2783d" ShowCaption="False" Caption="3a4ca40e-a05e-4539-a048-6948acb2783d(6)" Direction="Vertical" Index="0" RelativeSize="100" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" IsNewNode="True">
+                <LayoutItem Id="Name" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="51" ViewItem="Name" IsNewNode="True" />
+                <LayoutItem Id="TargetObjectType" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" Index="1" RelativeSize="48" ViewItem="TargetObjectType" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Item2" ShowCaption="True" Caption="Automatically start when:" CaptionLocation="Top" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="AlignLocal" Direction="Vertical" Index="1" RelativeSize="90" ImageName="" IsNewNode="True">
+              <LayoutItem Id="AutoStartWhenObjectIsCreated" ShowCaption="False" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="5" ViewItem="AutoStartWhenObjectIsCreated" IsNewNode="True" />
+              <LayoutGroup Id="Item3" ShowCaption="False" Caption="Item3" CaptionLocation="Top" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="AlignLocal" Direction="Horizontal" Index="1" RelativeSize="88" ImageName="" IsNewNode="True">
+                <LayoutItem Id="AutoStartWhenObjectFitsCriteria" ShowCaption="False" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="15" ViewItem="AutoStartWhenObjectFitsCriteria" IsNewNode="True" />
+                <LayoutItem Id="Criteria" ShowCaption="False" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" Index="1" RelativeSize="84" ViewItem="Criteria" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Item2" ShowCaption="True" Caption="Designer" CaptionLocation="Top" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="AlignLocal" Direction="Vertical" Index="1" RelativeSize="100" ImageName="" IsNewNode="True">
+            <LayoutItem Id="Xaml" ViewItem="Xaml" ShowCaption="False" TextAlignMode="AutoSize" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+          </LayoutGroup>
+        </TabbedGroup>
+      </LayoutGroup>
+    </LayoutGroup>
+    <LayoutGroup Id="Main" Removed="True" />
+  </Layout>
+</DetailView>
+</Views>
+</Application>
