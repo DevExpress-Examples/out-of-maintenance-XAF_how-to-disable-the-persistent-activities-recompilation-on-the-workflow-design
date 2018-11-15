@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MyWorkflowDefinition.cs](./CS/E4485.Module/BusinessObjects/MyWorkflowDefinition.cs) (VB: [MyWorkflowDefinition.vb](./VB/E4485.Module/BusinessObjects/MyWorkflowDefinition.vb))
+<!-- default file list end -->
 # How to: Disable the Persistent Activities Recompilation on the Workflow Designer Launch
 
 
